@@ -1,0 +1,57 @@
+@font-face {
+    font-family: rasta;
+    src: url("../fonts/LaPointesRoad.ttf");
+}
+
+body {
+    background-image: linear-gradient(red, gold, green);
+    background-attachment: fixed;
+}
+
+header {
+    padding: 55px;
+    font-family: rasta;
+}
+
+#tribute-info {
+	width: 50vw;
+}
+
+blockquote {
+    font-family: rasta;
+}
+
+.mb-0, blockquote {
+	font-size: 25px;
+	line-height: 2.0em;
+} 
+
+.mb-0:before {
+    content: open-quote;
+}
+
+.blockquote-footer {
+    color: black;
+	line-height: 3.5em;
+}
+
+.blockquote-footer::before {
+	content: "~";
+}
+
+@media screen and (max-width: 769px) {
+    .display-4 {
+        font-size: 2rem;
+        width: 90vw;
+        padding-bottom: 25px;
+    }
+
+    .h3, h3 {
+        font-size: 1.50rem;
+    }
+
+    #tribute-info {
+        width: 90vw;
+    }
+
+} 
