@@ -5,6 +5,8 @@
 
 body {
     background-image: linear-gradient(red, gold, green);
+    background-image: -moz-linear-gradient(red, gold, green);
+    background-image: -webkit-linear-gradient(red, gold, green);
     background-attachment: fixed;
 }
 
